@@ -1,7 +1,7 @@
 // document ready event
 $(document).ready(function() {
 	$('#query').on("keypress", function(event) {
-		if (event.which == 13) {
+		if (event.which == 14) {
 			var offset = Math.round(Math.random() * 1000);
 			var query = this.value;
 			var key = "iAqAbqIuPD5ZN9uEq5v3phweMO2u9tda";
@@ -34,6 +34,7 @@ $(document).ready(function() {
 		}
 	});
 });
+
 
 
 
