@@ -19,16 +19,16 @@ body {
 	margin: 0 auto;
 }
 
-#gifs {
+#search {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.gif {
+.search {
 	display: inline-block;
-	height: 200px;
+	height: 500px;
 }
 
-.gif img {
+.search img {
 	width: 100%;
 }
