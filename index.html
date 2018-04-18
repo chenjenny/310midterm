@@ -7,28 +7,35 @@
 </head>
 
 <body>
-	<h1> MMP 310 : Midterm Meme Mashup </h1>
+	<h1> MMP 310 Midterm: Giphy API Meme Mashup </h1>
+	<h1>"Story Time"</h1>
 	<h3> By Jessenia & Jenny </h3>
 	<hr>
 
-	<div id="container">
-		<input type="text" placeholder="NOUN" id="query">
-		<div id="gifs"></div>
-	</div>
-	<div id="container">
-		<input type="text" placeholder="VERB" id="query">
-		<div id="gifs"></div>
-		<div id="container">
-			<input type="text" placeholder="ADJECTIVE" id="query">
-			<div id="gifs"></div>
-		</div>
-	</div>
-	<div id="container">
-		<button id="search">SEARCH</button>
+	<h2 id="info"> It's story time! In put a word for each of the following category </h2>
+	
+
+	<!--text container-->
+	<div id="containerOne">
+		<input type="text" placeholder="NOUN" id="queryOne">
+		<div id="gifsOne"></div>
+
 	</div>
 
+	<div id="containerTwo">
+		<input type="text" placeholder="VERB" id="queryTwo">
+		<div id="gifsTwo"></div>
 
+	</div>
 
+	<div id="containerThree">
+		<input type="text" placeholder="ADJECTIVE" id="queryThree">
+		<div id="gifsThree"></div>
+
+	</div>
+	<div id="container">
+		<button id="submit">Search My Story</button>
+	</div>
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
