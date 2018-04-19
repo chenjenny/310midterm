@@ -1,8 +1,10 @@
 body {
+	background-image: url(https://media.giphy.com/media/TxVVB6PfWMjE4/giphy.gif);
+	background-blend-mode: soft-light;
 	font-family: Helvetica, sans-serif;
 	text-align: center;
-	background-color: #97C0B7;
-	color: #0A1C28;
+	/*	background-color: #97C0B7;*/
+	color: ghostwhite;
 }
 
 #queryOne,
@@ -20,7 +22,7 @@ body {
 
 #info {
 	font-family: Arial, sans-serif;
-	color: black;
+	color: ghostwhite;
 	margin: 2em 0;
 }
 
@@ -41,25 +43,24 @@ body {
 #containerOne,
 #containerTwo,
 #containerThree {
-	display: inline-grid;
+/*	display: inline-grid;*/
 	/*	grid-gap: 5px;*/
-	margin: 0 auto;
-	grid-template-columns: 1fr 1fr;
+	/*	margin: 0 auto;*/
+	grid-template-columns: 1fr 1fr ;
 
 }
 
 #gifone,
-giftwo,
-gitthree {
-
+#giftwo,
+#gitthree {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	display: inline-block
 }
 
 .gifone,
 .giftwo,
-.gifthree,
-	{
+.gifthree{
 	display: inline-block;
 	/*	height: 200px;*/
 }
