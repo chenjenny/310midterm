@@ -14,10 +14,11 @@ body {
 	text-align: center;
 	color: #97EEFF;
 	border-radius: 25px;
-	border-color: #402A30;
+	border-color: hotpink;
 	width: 200px;
 	height: 50px;
 	background-color: #FFA8BE;
+	margin: 1em 0;
 }
 
 #info {
@@ -33,7 +34,8 @@ body {
 	border-radius: 50%;
 	width: 150px;
 	height: 150px;
-	border-color: #402A30;
+	background: white;
+	border-color: lightskyblue;
 	border-width: medium;
 	margin: 2em 0;
 
@@ -43,10 +45,10 @@ body {
 #containerOne,
 #containerTwo,
 #containerThree {
-/*	display: inline-grid;*/
+/*		display: inline-grid;*/
 	/*	grid-gap: 5px;*/
 	/*	margin: 0 auto;*/
-	grid-template-columns: 1fr 1fr ;
+	grid-template-columns: 1fr 1fr;
 
 }
 
@@ -60,7 +62,7 @@ body {
 
 .gifone,
 .giftwo,
-.gifthree{
+.gifthree {
 	display: inline-block;
 	/*	height: 200px;*/
 }
