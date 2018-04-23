@@ -1,7 +1,7 @@
-
 <!doctype html>
 <html>
-	<head>
+
+<head>
 	<title> MMP 310 | Midterm Meme Mashup</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta charset="utf-8">
@@ -13,7 +13,7 @@
 	<h3> By Jessenia & Jenny </h3>
 	<hr>
 
-	<h2 id="info"> It's story time! Input a word for each of the following category </h2>
+	<h2 id="info"> It's story time!! Insert a word for each of the following category </h2>
 
 
 	<!--text container-->
@@ -36,8 +36,12 @@
 
 	</div>
 	<div id="container">
-		<button id="submit">Generate My Story</button>
+		<button id="submit" onclick="playAudio()"> Generate My Story</button>
 	</div>
+
+	<audio id="tracks">
+		<source src="Rimshot-sound/Rimshot-sound.mp3" type="audio/mpeg">
+	</audio>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="app.js"></script>

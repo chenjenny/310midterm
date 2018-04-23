@@ -3,7 +3,6 @@ body {
 	background-blend-mode: soft-light;
 	font-family: Helvetica, sans-serif;
 	text-align: center;
-	/*	background-color: #97C0B7;*/
 	color: ghostwhite;
 }
 
@@ -45,9 +44,7 @@ body {
 #containerOne,
 #containerTwo,
 #containerThree {
-/*		display: inline-grid;*/
-	/*	grid-gap: 5px;*/
-	/*	margin: 0 auto;*/
+
 	grid-template-columns: 1fr 1fr;
 
 }
@@ -64,9 +61,9 @@ body {
 .giftwo,
 .gifthree {
 	display: inline-block;
-	/*	height: 200px;*/
+
 }
 
 .search img {
-	width: 100%;
+	max-width: 100%;
 }

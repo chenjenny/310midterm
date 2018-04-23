@@ -34,7 +34,7 @@ $(document).ready(function () {
 			//Limits the # of gif you want shown, currently 1 gif per section
 			+
 			"&limit=1";
-		console.log(nounUrl)
+		
 		$.getJSON(nounUrl, function (nounData) {
 			$.getJSON(verbUrl, function (verbData) {
 				$.getJSON(adjUrl, function (adjData) {
@@ -68,4 +68,19 @@ $(document).ready(function () {
 		});
 	});
 });
+
+
+var audio = document.getElementById("tracks"); 
+	function playAudio() {
+			audio.play();
+		}
+
+	
+
+
+
+
+
+
+
 
